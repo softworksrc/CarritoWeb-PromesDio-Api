@@ -15,8 +15,7 @@ coverage/
 .vscode/
 *.log
 
-# 🔹 Node.js y Express (dependencias y logs)
-node_modules/
+# 🔹 Node.js y Express (dependencias, logs y configuración)
 npm-debug.log
 yarn-error.log
 .env
