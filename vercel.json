@@ -15,5 +15,7 @@
       "src": "/(.*)",
       "dest": "/$1"
     }
-  ]
+  ],
+    "installCommand": "npm install",
+  "outputDirectory": "dist"
 }
