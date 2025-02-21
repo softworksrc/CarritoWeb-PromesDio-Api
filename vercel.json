@@ -9,13 +9,13 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/Src/app.js"
+      "dest": "/src/app.js" 
     },
     {
       "src": "/(.*)",
       "dest": "/$1"
     }
   ],
-    "installCommand": "npm install",
-  "outputDirectory": "dist"
+  "installCommand": "npm install",
+  "outputDirectory": "dist"  
 }
