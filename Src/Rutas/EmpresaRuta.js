@@ -16,6 +16,11 @@ const { Listado,
  router.post(`/${Modelo}/crear`, Crear);
  router.put(`/${Modelo}/editar/:codigo`, Editar);
  router.delete(`/${Modelo}/eliminar/:codigo`, Eliminar);
+ router.get('/prueba', (req, res) => {
+    res.status(200).json({ message: 'Hola Mundo' });
+  });
+
+
 
 
 
