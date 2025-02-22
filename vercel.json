@@ -12,7 +12,10 @@
       "dest": "/api/index.js"
     }
   ],
-  "scripts": {
+  "scripts": [
+   {
     "postinstall": "npm install tedious"
   }
+  ]
+  
 }
