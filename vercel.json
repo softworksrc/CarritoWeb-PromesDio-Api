@@ -11,11 +11,6 @@
       "src": "/(.*)",
       "dest": "/api/index.js"
     }
-  ],
-  "scripts": [
-   {
-    "postinstall": "npm install tedious"
-  }
   ]
   
 }
